@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { Avatar, Box, Card, CardContent, Divider, Grid, Typography } from '@mui/material';
 import { Clock as ClockIcon } from '../../icons/clock';
 import { Download as DownloadIcon } from '../../icons/download';
+import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 
 export const ProductCard = ({ product, ...rest }) => (
   <Card
@@ -57,14 +58,14 @@ export const ProductCard = ({ product, ...rest }) => (
             display: 'flex'
           }}
         >
-          <ClockIcon color="action" />
+          <LibraryBooksIcon color="action" />
           <Typography
             color="textSecondary"
             display="inline"
             sx={{ pl: 1 }}
             variant="body2"
           >
-            Updated 2hr ago
+            58/100 items
           </Typography>
         </Grid>
         <Grid
